@@ -1,0 +1,17 @@
+<Logging>
+	LogFilename /tmp/
+	LogPrefix BiTLog2
+	Format Ascii
+	LogDetailLevel normal
+	TraceLevel 0
+	MaxFileLines 1000		
+	LogMode ClearAppend
+</Logging>
+<DutyCycles>
+	AutoStopMinutes 15
+	AutoStopCycles 0
+	CPU 100
+	CDDVD 100
+	Memory 100
+	Network 100
+</DutyCycles>
